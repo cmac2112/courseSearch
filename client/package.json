@@ -2,7 +2,7 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://cmac2112.github.io/cmac2112.github.io",
+  "homepage": "https://cmac2112.github.io/courseSearch",
   "type": "module",
   "scripts": {
     "dev": "vite",
