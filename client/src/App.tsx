@@ -1,11 +1,26 @@
-import { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [string, setString] = React.useState("");
 
+  const getHello = async () =>{
+    try{
+    const response = await fetch("http://127.0.0.1:5000/helloworld")
+    const data = await response.json()
+    console.log(data.message)
+    setString(data.message)
+    }catch(err){
+      console.log(err)
+    }
+
+  }
+  useEffect(() =>{
+    getHello()
+  }, [])
   return (
     <>
       <div>
@@ -24,6 +39,9 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
+      </div>
+      <div>test
+        {string}
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
