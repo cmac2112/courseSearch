@@ -1,53 +1,32 @@
-import React, { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { HashRouter as Router, Routes, Route, Navigate} from "react-router-dom";
+import TestRoute from "./components/TestRoute";
+import LeafletTest from "./components/Leaflet/LeafletTest";
+import LandingPage from "./components/LandingPage";
+import About from "./components/About/About";
+import "./index.css"
+import Howto from "./components/Howto/Howto";
 
-function App() {
-  const [count, setCount] = useState(0)
-  const [string, setString] = React.useState("");
+//figure out map stuff, preferrably a png or actualy maps depending on if they free
+//need sidebar component
+//need footer component
 
-  const getHello = async () =>{
-    try{
-    const response = await fetch("http://127.0.0.1:5000/helloworld")
-    const data = await response.json()
-    console.log(data.message)
-    setString(data.message)
-    }catch(err){
-      console.log(err)
-    }
 
-  }
-  useEffect(() =>{
-    getHello()
-  }, [])
+//get coordinates for each room
+//figure out routes
+
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <div>test
-        {string}
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path='/' element={<Navigate to ="/courseSearch/" />} />
+        <Route path="/courseSearch/" element={<LandingPage />} />
+        <Route path="/courseSearch/test" element={<TestRoute />} />
+        <Route path="/courseSearch/map" element={<LeafletTest />} />
+        <Route path="/courseSearch/about" element={<About />} />
+        <Route path="*" element={<Navigate to ="/courseSearch/" />} />
+        <Route path="/courseSearch/howTo" element={<Howto />} />
+      </Routes>
+      </Router>
+  );
+  
 }
-
-export default App
