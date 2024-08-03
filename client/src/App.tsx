@@ -1,8 +1,10 @@
-import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
-import ApiExample from "./components/ApiExample";
+import { HashRouter as Router, Routes, Route, Navigate} from "react-router-dom";
 import TestRoute from "./components/TestRoute";
-
 import LeafletTest from "./components/Leaflet/LeafletTest";
+import LandingPage from "./components/LandingPage";
+import About from "./components/About/About";
+import "./index.css"
+import Howto from "./components/Howto/Howto";
 
 //figure out map stuff, preferrably a png or actualy maps depending on if they free
 //need sidebar component
@@ -14,15 +16,17 @@ import LeafletTest from "./components/Leaflet/LeafletTest";
 
 export default function App() {
   return (
-    <BrowserRouter>
-    <HashRouter>
+    <Router>
       <Routes>
-        <Route path="/courseSearch/" element={<ApiExample />} />
+        <Route path='/' element={<Navigate to ="/courseSearch/" />} />
+        <Route path="/courseSearch/" element={<LandingPage />} />
         <Route path="/courseSearch/test" element={<TestRoute />} />
         <Route path="/courseSearch/map" element={<LeafletTest />} />
+        <Route path="/courseSearch/about" element={<About />} />
+        <Route path="*" element={<Navigate to ="/courseSearch/" />} />
+        <Route path="/courseSearch/howTo" element={<Howto />} />
       </Routes>
-      </HashRouter>
-    </BrowserRouter>
+      </Router>
   );
   
 }

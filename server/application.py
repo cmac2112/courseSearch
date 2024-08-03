@@ -16,6 +16,12 @@ print('swagger at http://127.0.0.1:5000/apidocs')
 
 db = SQLAlchemy(app)
 
+#figure out how to host this in the cloud, thought hosting it on github pages would do
+#all the work but obviously not
+
+#or just put everything in the react app such as coordinates in their own array somewhere
+
+
 def get_db():
     if 'db' not in g:
         g.db = sqlite3.connect(
