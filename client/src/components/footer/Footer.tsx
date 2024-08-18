@@ -1,4 +1,3 @@
-import React from 'react'
 import './footer.css'
 const Footer = () => {
 
@@ -11,7 +10,7 @@ const Footer = () => {
                     <span> All trademarks used are owned by their respective owners</span>
                 </div>
                 <div>
-                <span> Copyright 2024 Caden McArthur</span>
+                <span> Copyright 2024 Caden McArthur MIT License</span>
                 </div>
             </div>
         </div>

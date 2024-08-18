@@ -1,7 +1,7 @@
 import { HashRouter as Router, Routes, Route, Navigate} from "react-router-dom";
 import TestRoute from "./components/TestRoute";
 import LeafletTest from "./components/Leaflet/LeafletTest";
-import LandingPage from "./components/LandingPage";
+import LandingPage from "./components/LandingPage/LandingPage";
 import About from "./components/About/About";
 import "./index.css"
 import Howto from "./components/Howto/Howto";

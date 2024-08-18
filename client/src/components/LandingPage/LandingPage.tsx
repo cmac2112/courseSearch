@@ -1,6 +1,28 @@
+import React, { useEffect, useState } from 'react'
+import Layout from '../layout/Layout'
+import './landingPage.css'
+import 'leaflet/dist/leaflet.css';
+import { MapContainer, useMap, TileLayer, Marker, Popup } from 'react-leaflet'
+import L, { LatLngTuple } from 'leaflet'; // Add this line to import the 'L' object from the 'leaflet' library
+import Header from '../Header';
 
-const TestRoute = () => {
-  //this is what happens when you dont want to deal with setting up cloud backend
+interface Course {
+  course: string;
+  areaofstudy: string;
+  rooms: Room;
+}
+
+interface Room {
+  section: string;
+  hours: string;
+  schedule: string;
+  days: string;
+  building: string;
+  room: string;
+  instructor: string;
+  coordinates: LatLngTuple;
+}
+const CourseList: React.FC = () => {
   const masterList = [
     {
         "course": "BIO110 Environmental Science",
@@ -646,7 +668,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 172",
             "instructor": "STAFF",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1225,7 +1250,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 172",
             "instructor": "DoughertyC",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1239,7 +1267,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 172",
             "instructor": "DoughertyC",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1253,7 +1284,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA KA",
             "instructor": "WilkinsonJ",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1295,7 +1329,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 172",
             "instructor": "Klassen D",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1309,7 +1346,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 176",
             "instructor": "Cr-Dick C",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1323,7 +1363,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 172",
             "instructor": "DoughertyC",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1337,7 +1380,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 172",
             "instructor": "Klassen D",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1351,7 +1397,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 176",
             "instructor": "Cr-Dick C",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1365,7 +1414,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 176",
             "instructor": "Cr-Dick C",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1379,7 +1431,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA KA",
             "instructor": "WilkinsonJ",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1421,7 +1476,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 172",
             "instructor": "Klassen D",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1435,7 +1493,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 176",
             "instructor": "Cr-Dick C",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1449,7 +1510,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 172",
             "instructor": "DoughertyC",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1463,7 +1527,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 176",
             "instructor": "Cr-Dick C",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -1491,7 +1558,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 176",
             "instructor": "Klassen D\nCr-Dick C\nDoughertyC",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -3283,7 +3353,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 172",
             "instructor": "Peacock, N",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -3565,7 +3638,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA KA",
             "instructor": "Goerzen P\nVoth, T.",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -3607,7 +3683,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA KA",
             "instructor": "Goerzen P",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4283,7 +4362,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 141",
             "instructor": "Liu, C",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4297,7 +4379,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 141",
             "instructor": "Miertschin",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4311,7 +4396,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 143",
             "instructor": "Waters, H",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4325,7 +4413,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 165",
             "instructor": "Liu, C",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4339,7 +4430,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 162",
             "instructor": "Chun S",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4381,7 +4475,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 142",
             "instructor": "Thompson C\nBoettger J\nHague Z",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4437,7 +4534,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 142",
             "instructor": "Boettger J",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4451,7 +4551,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 141",
             "instructor": "Liu, C",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4465,7 +4568,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 141",
             "instructor": "Liu, C",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4479,7 +4585,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 142",
             "instructor": "Boettger J",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4507,7 +4616,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 141",
             "instructor": "Boettger J",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4521,7 +4633,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 141",
             "instructor": "Miertschin",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4535,7 +4650,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 141",
             "instructor": "Liu, C",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4549,7 +4667,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 143",
             "instructor": "Hilding, K\nWaters, H",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4563,7 +4684,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 143",
             "instructor": "Waters, H",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4577,7 +4701,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 165",
             "instructor": "Liu, C",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4591,7 +4718,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 162",
             "instructor": "Chun S",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4633,7 +4763,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 142",
             "instructor": "Boettger J",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4689,7 +4822,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 142",
             "instructor": "Boettger J",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4731,7 +4867,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 143",
             "instructor": "Waters, H",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4745,7 +4884,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA KA",
             "instructor": "Boettger J",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4759,7 +4901,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 142",
             "instructor": "Hilding, K",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4790,7 +4935,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA KA",
             "instructor": "Miertschin",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4804,7 +4952,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 142",
             "instructor": "Boettger J",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -4832,7 +4983,10 @@ const TestRoute = () => {
             "building": "FA ",
             "room": "FA 143",
             "instructor": "Waters, H",
-            "coordinates": "not found"
+            "coordinates": [
+                "38.073659",
+                "-97.343316"
+            ]
         }
     },
     {
@@ -6115,35 +6269,115 @@ const TestRoute = () => {
             "room": "MH GYM",
             "instructor": "McCord\nGogus J",
             "coordinates": [
-                "38.075112",
-                "-97.344159"
+                38.075112,
+                -97.344159
             ]
         }
     }
 ]
-
-const getCourse = (course: string) => {
-  const foundCourse = masterList.find(c => c.course === course)
-  console.log(foundCourse)
-  console.log(foundCourse?.rooms)
-  console.log(foundCourse?.rooms?.section)
-  console.log(foundCourse?.rooms?.hours)
-  console.log(foundCourse?.rooms?.schedule)
-  console.log(foundCourse?.rooms?.days)
-    console.log(foundCourse?.rooms?.building)
-    console.log(foundCourse?.rooms?.room)
-    console.log(foundCourse?.rooms?.instructor)
-    console.log(foundCourse?.rooms?.coordinates)
+//lol this is a mess, i ran out of time to setup a true backend so congratz if you made it this far
+var mapbox_url = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoiam9ubnltY2N1bGxhZ2giLCJhIjoiY2xsYzdveWh4MGhwcjN0cXV5Z3BwMXA1dCJ9.QoEHzPNq9DtTRrdtXfOdrw';
+  var mapbox_attribution = '© Mapbox © OpenStreetMap Contributors';
+  var esri_url ='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
+  var esri_attribution = '© Esri © OpenStreetMap Contributors';
+  const lyr_sattelite = L.tileLayer(mapbox_url, { id: 'mapbox/satellite-v9', attribution: mapbox_attribution });
+  const lyr_streets = L.tileLayer(esri_url, { attribution: esri_attribution });
+  const marker = L.marker([38.074672, -97.342624]);
+  const lg_markers = L.layerGroup([marker]);
   
-  return foundCourse
-}
-  return (
-    <div>TestRoute
-      <div>
-        <button onClick={() => console.log(getCourse('HHP321 Varsity Sport-Cheer & Dance'))}>Get Course</button>
-      </div>
-    </div>
-  )
-}
+  const baseMaps = {
+    "Streets": lyr_streets,
+    "Satellite": lyr_sattelite
+  }
+  const overlayMaps = {
+    "Markers": lg_markers
+  }
 
-export default TestRoute
+  const LayerControl = () => {
+    const map = useMap();
+   useEffect(() =>{ 
+    L.control.layers(baseMaps, overlayMaps).addTo(map);}, [map]);
+    return null;
+  }
+
+
+  const [userInput, setUserInput] = useState("");
+  const [foundCourse, setFoundCourse] = useState<Course | null>(null);
+  const getCourseData = (courseString: string) => {
+      const foundCourse = masterList.find(course => course.course.toLowerCase().includes(courseString.toLowerCase()))
+      if (foundCourse){
+
+      setFoundCourse({
+        ...foundCourse,
+        rooms: {
+          ...foundCourse.rooms,
+          coordinates: [
+            Number(foundCourse?.rooms?.coordinates[0]),
+            Number(foundCourse?.rooms?.coordinates[1])
+          ] as LatLngTuple
+        }
+      });
+      const coords: LatLngTuple = [Number(foundCourse?.rooms?.coordinates[0]), Number(foundCourse?.rooms?.coordinates[1])]
+      console.log(coords)
+      }else{
+        console.error('Course not found')
+      }
+      return foundCourse
+    }
+  
+
+
+  return (
+    <div>
+        <Header>Course Search</Header>
+      <Layout>
+        <div className="first-area">
+      <h2 className="subtitle">BETA TEST</h2>
+      </div>
+      <h3 className="subtitle">Search for a course to find its location on campus try: BIO110</h3>
+
+      <p>by using this software you understand that this site is under construction and may not work at times, or change drastically between uses</p>
+      <div className="centered-container">
+        <div className="input-area">
+          <input className="input-area-type" type="text" 
+          value = {userInput}
+          onChange={(e) => setUserInput(e.target.value)}
+          placeholder="Search for courses" />
+          <button onClick={() => getCourseData(userInput)}>Search</button>
+        </div>
+        <div className="course-info">
+        <h2>{foundCourse?.course}</h2>
+        <p>Area of Study: {foundCourse?.areaofstudy}</p>
+        <p>Section: {foundCourse?.rooms?.section}</p>
+        <p>Hours: {foundCourse?.rooms?.hours}</p>
+        <p>Schedule: {foundCourse?.rooms?.schedule}</p>
+        <p>Days: {foundCourse?.rooms?.days}</p>
+        <p>Building: {foundCourse?.rooms?.building}</p>
+        <p>Room: {foundCourse?.rooms?.room}</p>
+        <p>Instructor: {foundCourse?.rooms?.instructor}</p>
+      </div>
+        <MapContainer className="map-container" center={[38.074672, -97.342624]} zoom={18} style={{ height: "50vh", width: "70vh" }} layers={[lyr_sattelite, lyr_streets, lg_markers]}>
+      <TileLayer
+        url={mapbox_url}
+        id='mapbox/streets-v11'
+        maxZoom={18}
+        tileSize={1028}
+        zoomOffset={-1}
+        attribution={mapbox_attribution}
+      />
+      {foundCourse && (
+      <Marker position={foundCourse.rooms.coordinates}>
+        <Popup>
+          Approximate location of {foundCourse.course}
+        </Popup>
+      </Marker>
+      )}
+      <LayerControl />
+    </MapContainer>
+      </div>
+      </Layout>
+    </div>
+  );
+};
+
+export default CourseList;
