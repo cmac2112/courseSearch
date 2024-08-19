@@ -1,4 +1,11 @@
 .first-area{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.second-area{
   display: flex;
   justify-content: center;
 }

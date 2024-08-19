@@ -2,7 +2,6 @@ import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import logo from '../../assets/bclogo.svg';
 import './sidebar.css'
-import icon from '../../assets/Hamburger_icon.svg.svg';
 const Sidebar = () => {
   const navigate = useNavigate();
   const [isHidden, setIsHidden] = React.useState(false);
@@ -11,8 +10,8 @@ const Sidebar = () => {
     setIsHidden(!isHidden);
   }
   return (
+    <>
     <div className={`sidebar ${isHidden ? 'hidden' : ''}`}>
-      <div className="icon" onClick={toggleSidebar}><img src={icon} alt="icon" height={20} width={20}/></div>
         <img className="logo" src={logo} alt="logo" />
       <div className="sidebar-title">
         <h1>Course Search</h1>
@@ -41,7 +40,10 @@ const Sidebar = () => {
       <div className="sidebar-item">
         <a href='https://moodle.bethelks.edu/login/index.php'>Moodle</a>
       </div>
+      <div className={`overlay ${isHidden ? '' : 'visible'}`} onClick={toggleSidebar}></div>
+      <div className="icon" onClick={toggleSidebar}>{isHidden ? 'open menu >' : '< close menu'}</div>
     </div>
+    </>
   )
 }
 
