@@ -1,69 +1,56 @@
-.first-area{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.second-area{
-  display: flex;
-  justify-content: center;
-}
-.subtitle{
-  align-items: center;
-}
-.centered-container{
+.landing-page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url('../../assets/Ad-Building.rain_.TB_-scaled.svg') no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+  }
+  
+  .bg-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 1) 100%);
+    z-index: 2;
+  }
+  
+  .header {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    height: 100%;
+  }
+  .content{
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    width: 150vh;
-}
-.input-area{
-    margin-bottom: 20px;
-}
-
-.input-area-type{
-    font-size: large;
-    width: 300px;
-    height: 40px;
-}
-
-.course-info {
-  padding: 1rem;
-}
-
-@media (max-width: 768px) {
-  .course-info {
-    font-size: 0.9rem;
+    width: 100vw;
+    z-index: 3;
   }
-
-  .course-info h2 {
-    font-size: 1.2rem;
+  .search-button{
+    background-color: maroon;
+    padding: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    border: maroon;
+    border-radius: 20px;
   }
-
-  .course-info p {
-    margin: 0.5rem 0;
-  }
-
-  .map-container {
-    height: 50vh;
-    width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  .course-info {
-    font-size: 0.8rem;
-  }
-
-  .course-info h2 {
-    font-size: 1rem;
-  }
-
-  .map-container {
-    height: 40vh;
-    width: 100%;
-  }
-}

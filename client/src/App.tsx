@@ -1,6 +1,7 @@
 import { HashRouter as Router, Routes, Route, Navigate} from "react-router-dom";
 import TestRoute from "./components/TestRoute";
 import LeafletTest from "./components/Leaflet/LeafletTest";
+import SearchPage from "./components/searchPage/SearchPage";
 import LandingPage from "./components/LandingPage/LandingPage";
 import About from "./components/About/About";
 import "./index.css"
@@ -19,12 +20,13 @@ export default function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Navigate to ="/courseSearch/" />} />
-        <Route path="/courseSearch/" element={<LandingPage />} />
+        <Route path="/courseSearch/search" element={<SearchPage />} />
         <Route path="/courseSearch/test" element={<TestRoute />} />
         <Route path="/courseSearch/map" element={<LeafletTest />} />
         <Route path="/courseSearch/about" element={<About />} />
         <Route path="*" element={<Navigate to ="/courseSearch/" />} />
         <Route path="/courseSearch/howTo" element={<Howto />} />
+        <Route path="/courseSearch/" element={<LandingPage />} />
       </Routes>
       </Router>
   );

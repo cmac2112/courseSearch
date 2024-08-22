@@ -1,23 +1,22 @@
 import { useNavigate } from 'react-router-dom';
-import React from 'react';
+import { useSidebar } from '../../contexts/SidebarContext';
 import logo from '../../assets/bclogo.svg';
 import './sidebar.css'
 const Sidebar = () => {
   const navigate = useNavigate();
-  const [isHidden, setIsHidden] = React.useState(false);
+  const { isHidden, toggleSidebar } = useSidebar();
 
-  const toggleSidebar = () => {
-    setIsHidden(!isHidden);
-  }
+  
   return (
     <>
-    <div className={`sidebar ${isHidden ? 'hidden' : ''}`}>
-        <img className="logo" src={logo} alt="logo" />
+    <div className={`sidebar ${isHidden ? 'hidden' : ''}`} id="sidebar-main">
+        <img onClick={() => navigate('/courseSearch/')}className="logo" src={logo} alt="logo" />
       <div className="sidebar-title">
         <h1>Course Search</h1>
       </div>
+      <div className="icon" onClick={toggleSidebar}></div>
       <div className="sidebar-item">
-        <span className="sidebar-clickable" onClick={() => navigate('/courseSearch/')}>Search for a Course</span>
+        <span className="sidebar-clickable" onClick={() => navigate('/courseSearch/search')}>Search for a Course</span>
       </div>
       <div className="sidebar-item">
         <span className="sidebar-clickable" onClick={() => navigate('/courseSearch/howTo')}>How To Use</span>
@@ -40,8 +39,9 @@ const Sidebar = () => {
       <div className="sidebar-item">
         <a href='https://moodle.bethelks.edu/login/index.php'>Moodle</a>
       </div>
-      <div className={`overlay ${isHidden ? '' : 'visible'}`} onClick={toggleSidebar}></div>
-      <div className="icon" onClick={toggleSidebar}>{isHidden ? 'open menu >' : '< close menu'}</div>
+      <div className="icon" onClick={toggleSidebar}>
+        <div className="text-icon">{isHidden? '>' : '<'}</div>
+        </div>
     </div>
     </>
   )

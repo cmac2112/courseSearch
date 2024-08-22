@@ -38,22 +38,25 @@
     height: 100px;
     margin: 0 auto;
     display: block;
+    cursor: pointer;
 }
 .icon{
     height: 30px;
     width: 30px;
     position: absolute;
-    top: 10px;
-    left: 255px; /* Position the button outside the sidebar */
+    top: 50%;
+    left: 250px; /* Position the button outside the sidebar */
     cursor: pointer; /* Add cursor pointer to indicate it's clickable */
     z-index: 1001; /* Ensure the button is above the sidebar */
-    color: #fff;
-    border-radius: 100%;
+    color: #ffffff;
+    background-color: maroon;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
 }
-.icon-text{
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 20px;
+.text-icon{
+    position: inherit;
+    right: 10px;
+    font-size:x-large;
 }
 .icon:hover{
     cursor: pointer;
