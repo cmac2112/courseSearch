@@ -28,7 +28,7 @@ const LeafletTest = () => {
     return null;
   }
   return (
-      <MapContainer center={[38.074672, -97.342624]} zoom={18} style={{ height: "90vh", width: "100%" }} layers={[lyr_sattelite, lyr_streets, lg_markers]}>
+      <MapContainer center={[38.074672, -97.342624]} zoom={18} style={{ height: "80vh", width: "50%" }} layers={[lyr_sattelite, lyr_streets, lg_markers]}>
       <TileLayer
         url={mapbox_url}
         id='mapbox/streets-v11'

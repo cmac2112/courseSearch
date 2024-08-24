@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .sidebar{
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -11,6 +12,12 @@
     background-color: #333;
     color: #fff;
     padding-top: 20px;;
+    flex-shrink: 0;
+    z-index: 10101;
+    transition: transform 0.3s ease-in-out;
+}
+.sidebar.hidden{
+    transform: translateX(-100%);
 }
 .sidebar-title{
     text-align: center;
@@ -18,13 +25,58 @@
     font-family:sans-serif;
 }
 .sidebar-item{
+    padding: 10px 20px;
     padding-top: 30px;
-    text-align: center;
+    text-align:start;
     font-family:sans-serif;
+}
+.sidebar-clickable{
+    cursor: pointer;
 }
 .logo{
     width: 100px;
     height: 100px;
     margin: 0 auto;
     display: block;
+    cursor: pointer;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 250px; /* Position the button outside the sidebar */
+    cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+    z-index: 1001; /* Ensure the button is above the sidebar */
+    color: #ffffff;
+    background-color: maroon;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+.text-icon{
+    position: inherit;
+    right: 10px;
+    font-size:x-large;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 250px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 999; /* Below the sidebar but above other content */
+    display: none; /* Hide the overlay */
+}
+
+.overlay.visible {
+    display: block; /* Show when the sidebar is visible */
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
 }

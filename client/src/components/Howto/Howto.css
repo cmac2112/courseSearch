@@ -1,0 +1,39 @@
+.bullet-list{
+    list-style-type: disc;
+    margin-left: 20px;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+.tutorial-header{
+    font-family: sans-serif;
+    justify-self: center;
+    text-align: center;
+}
+.tutorial-image{
+    padding: 10px;
+}
+.area-1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(200,200,200);
+}
+.area-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.text-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.error{
+    color: red;
+    font-family: sans-serif;
+}

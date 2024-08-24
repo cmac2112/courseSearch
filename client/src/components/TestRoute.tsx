@@ -12,7 +12,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 016",
-            "instructor": "Woods, J"
+            "instructor": "Woods, J",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -25,7 +29,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 302",
-            "instructor": "Woods, J"
+            "instructor": "Woods, J",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -38,7 +46,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 016",
-            "instructor": "Woods, J"
+            "instructor": "Woods, J",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -51,7 +63,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 302",
-            "instructor": "Woods, J"
+            "instructor": "Woods, J",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -64,7 +80,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 016",
-            "instructor": "Woods, J"
+            "instructor": "Woods, J",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -77,7 +97,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 016",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -90,7 +114,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "KSC",
             "room": "KSC 313",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -103,7 +131,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 016",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -116,7 +148,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "KSC",
             "room": "KSC 313",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -129,7 +165,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 016",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -142,7 +182,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 313",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -155,7 +199,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 016",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -168,7 +216,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 313",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -181,7 +233,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 121",
-            "instructor": "Woods, J"
+            "instructor": "Woods, J",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -194,7 +250,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 121",
-            "instructor": "Woods, J"
+            "instructor": "Woods, J",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -207,7 +267,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "KSC",
             "room": "KSC 309",
-            "instructor": "Woods, J"
+            "instructor": "Woods, J",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -220,7 +284,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 302",
-            "instructor": "Woods, J"
+            "instructor": "Woods, J",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -233,7 +301,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -246,7 +315,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -259,7 +329,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 302",
-            "instructor": "Woods, J"
+            "instructor": "Woods, J",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -272,7 +346,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -285,7 +360,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -298,7 +374,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 208",
-            "instructor": "Goerzen P"
+            "instructor": "Goerzen P",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -311,7 +391,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -324,7 +405,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 216",
-            "instructor": "Voth, T."
+            "instructor": "Voth, T.",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -337,7 +422,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "SC",
             "room": "SC",
-            "instructor": "Goerzen P"
+            "instructor": "Goerzen P",
+            "coordinates": "not found"
         }
     },
     {
@@ -350,7 +436,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -363,7 +450,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 216",
-            "instructor": "Voth, T."
+            "instructor": "Voth, T.",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -376,7 +467,11 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "WAC",
             "room": "WAC 213",
-            "instructor": "Goerzen P"
+            "instructor": "Goerzen P",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -389,7 +484,11 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "WAC",
             "room": "WAC 214",
-            "instructor": "Jantzen M"
+            "instructor": "Jantzen M",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -402,7 +501,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 210",
-            "instructor": "Voth, T."
+            "instructor": "Voth, T.",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -415,7 +518,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -428,7 +532,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -441,7 +546,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Goerzen P"
+            "instructor": "Goerzen P",
+            "coordinates": "not found"
         }
     },
     {
@@ -454,7 +560,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 208",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -467,7 +577,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 119",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -480,7 +594,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 203",
-            "instructor": "McFarlandA"
+            "instructor": "McFarlandA",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -493,7 +611,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 203",
-            "instructor": "McFarlandA"
+            "instructor": "McFarlandA",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -506,7 +628,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 203",
-            "instructor": "Dobbs, N"
+            "instructor": "Dobbs, N",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -519,7 +645,8 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "FA ",
             "room": "FA 172",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": "not found"
         }
     },
     {
@@ -532,7 +659,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 203",
-            "instructor": "Dobbs, N"
+            "instructor": "Dobbs, N",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -545,7 +676,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "McFarlandA"
+            "instructor": "McFarlandA",
+            "coordinates": "not found"
         }
     },
     {
@@ -558,7 +690,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -571,7 +704,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -584,7 +718,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 203",
-            "instructor": "McFarlandA"
+            "instructor": "McFarlandA",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -597,7 +735,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 203",
-            "instructor": "Dobbs, N"
+            "instructor": "Dobbs, N",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -610,7 +752,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "WAC",
             "room": "WAC 119",
-            "instructor": "Dobbs, N"
+            "instructor": "Dobbs, N",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -623,7 +769,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -636,7 +783,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -649,7 +797,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "McFarlandA"
+            "instructor": "McFarlandA",
+            "coordinates": "not found"
         }
     },
     {
@@ -662,7 +811,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -675,7 +825,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -688,7 +839,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 208",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -701,7 +856,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 016",
-            "instructor": "Wiebe-Fris"
+            "instructor": "Wiebe-Fris",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -714,7 +873,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 216",
-            "instructor": "Wiebe-Fris"
+            "instructor": "Wiebe-Fris",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -727,7 +890,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 016",
-            "instructor": "Wiebe-Fris"
+            "instructor": "Wiebe-Fris",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -740,7 +907,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 216",
-            "instructor": "Wiebe-Fris"
+            "instructor": "Wiebe-Fris",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -753,7 +924,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 018",
-            "instructor": "Wiebe-Fris"
+            "instructor": "Wiebe-Fris",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -766,7 +941,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "KSC",
             "room": "KSC 203",
-            "instructor": "Wiebe-Fris"
+            "instructor": "Wiebe-Fris",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -779,7 +958,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 018",
-            "instructor": "Wiebe-Fris"
+            "instructor": "Wiebe-Fris",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -792,7 +975,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "KSC",
             "room": "KSC 203",
-            "instructor": "Wiebe-Fris"
+            "instructor": "Wiebe-Fris",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -805,7 +992,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 008",
-            "instructor": "Layman K"
+            "instructor": "Layman K",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -818,7 +1009,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "KSC",
             "room": "KSC 207",
-            "instructor": "Layman K"
+            "instructor": "Layman K",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -831,7 +1026,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 207",
-            "instructor": "Layman K\nWiebe-Fris"
+            "instructor": "Layman K\nWiebe-Fris",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -844,7 +1043,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -857,7 +1057,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -870,7 +1071,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 207",
-            "instructor": "Layman K\nWiebe-Fris"
+            "instructor": "Layman K\nWiebe-Fris",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -883,7 +1088,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 121",
-            "instructor": "Layman K"
+            "instructor": "Layman K",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -896,7 +1105,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 006",
-            "instructor": "Layman K"
+            "instructor": "Layman K",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -909,7 +1122,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 121",
-            "instructor": "Layman K"
+            "instructor": "Layman K",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -922,7 +1139,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 006",
-            "instructor": "Layman K"
+            "instructor": "Layman K",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -935,7 +1156,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 006",
-            "instructor": "Layman K"
+            "instructor": "Layman K",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -948,7 +1173,11 @@ const TestRoute = () => {
             "days": "-MTW-F-",
             "building": "KSC",
             "room": "KSC 121",
-            "instructor": "Layman K"
+            "instructor": "Layman K",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -961,7 +1190,11 @@ const TestRoute = () => {
             "days": "-MTW-F-",
             "building": "KSC",
             "room": "KSC 121",
-            "instructor": "Layman K"
+            "instructor": "Layman K",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -974,7 +1207,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 006",
-            "instructor": "Layman K"
+            "instructor": "Layman K",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -987,7 +1224,8 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FA ",
             "room": "FA 172",
-            "instructor": "DoughertyC"
+            "instructor": "DoughertyC",
+            "coordinates": "not found"
         }
     },
     {
@@ -1000,7 +1238,8 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FA ",
             "room": "FA 172",
-            "instructor": "DoughertyC"
+            "instructor": "DoughertyC",
+            "coordinates": "not found"
         }
     },
     {
@@ -1013,7 +1252,8 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FA ",
             "room": "FA KA",
-            "instructor": "WilkinsonJ"
+            "instructor": "WilkinsonJ",
+            "coordinates": "not found"
         }
     },
     {
@@ -1026,7 +1266,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1039,7 +1280,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1052,7 +1294,8 @@ const TestRoute = () => {
             "days": "-M-----",
             "building": "FA ",
             "room": "FA 172",
-            "instructor": "Klassen D"
+            "instructor": "Klassen D",
+            "coordinates": "not found"
         }
     },
     {
@@ -1065,7 +1308,8 @@ const TestRoute = () => {
             "days": "U------",
             "building": "FA ",
             "room": "FA 176",
-            "instructor": "Cr-Dick C"
+            "instructor": "Cr-Dick C",
+            "coordinates": "not found"
         }
     },
     {
@@ -1078,7 +1322,8 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "FA ",
             "room": "FA 172",
-            "instructor": "DoughertyC"
+            "instructor": "DoughertyC",
+            "coordinates": "not found"
         }
     },
     {
@@ -1091,7 +1336,8 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FA ",
             "room": "FA 172",
-            "instructor": "Klassen D"
+            "instructor": "Klassen D",
+            "coordinates": "not found"
         }
     },
     {
@@ -1104,7 +1350,8 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "FA ",
             "room": "FA 176",
-            "instructor": "Cr-Dick C"
+            "instructor": "Cr-Dick C",
+            "coordinates": "not found"
         }
     },
     {
@@ -1117,7 +1364,8 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "FA ",
             "room": "FA 176",
-            "instructor": "Cr-Dick C"
+            "instructor": "Cr-Dick C",
+            "coordinates": "not found"
         }
     },
     {
@@ -1130,7 +1378,8 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FA ",
             "room": "FA KA",
-            "instructor": "WilkinsonJ"
+            "instructor": "WilkinsonJ",
+            "coordinates": "not found"
         }
     },
     {
@@ -1143,7 +1392,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1156,7 +1406,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1169,7 +1420,8 @@ const TestRoute = () => {
             "days": "-M-----",
             "building": "FA ",
             "room": "FA 172",
-            "instructor": "Klassen D"
+            "instructor": "Klassen D",
+            "coordinates": "not found"
         }
     },
     {
@@ -1182,7 +1434,8 @@ const TestRoute = () => {
             "days": "U------",
             "building": "FA ",
             "room": "FA 176",
-            "instructor": "Cr-Dick C"
+            "instructor": "Cr-Dick C",
+            "coordinates": "not found"
         }
     },
     {
@@ -1195,7 +1448,8 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "FA ",
             "room": "FA 172",
-            "instructor": "DoughertyC"
+            "instructor": "DoughertyC",
+            "coordinates": "not found"
         }
     },
     {
@@ -1208,7 +1462,8 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "FA ",
             "room": "FA 176",
-            "instructor": "Cr-Dick C"
+            "instructor": "Cr-Dick C",
+            "coordinates": "not found"
         }
     },
     {
@@ -1221,7 +1476,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Cr-Dick C"
+            "instructor": "Cr-Dick C",
+            "coordinates": "not found"
         }
     },
     {
@@ -1234,7 +1490,8 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "FA ",
             "room": "FA 176",
-            "instructor": "Klassen D\nCr-Dick C\nDoughertyC"
+            "instructor": "Klassen D\nCr-Dick C\nDoughertyC",
+            "coordinates": "not found"
         }
     },
     {
@@ -1247,7 +1504,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -1260,7 +1518,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -1273,7 +1532,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -1286,7 +1546,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -1299,7 +1560,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Siemens D"
+            "instructor": "Siemens D",
+            "coordinates": "not found"
         }
     },
     {
@@ -1312,7 +1574,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1325,7 +1588,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1338,7 +1602,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 214",
-            "instructor": "Siemens D"
+            "instructor": "Siemens D",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -1351,7 +1619,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1364,7 +1633,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1377,7 +1647,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 216",
-            "instructor": "Jantz A"
+            "instructor": "Jantz A",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -1390,7 +1664,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Jantz A"
+            "instructor": "Jantz A",
+            "coordinates": "not found"
         }
     },
     {
@@ -1403,7 +1678,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1416,7 +1692,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1429,7 +1706,11 @@ const TestRoute = () => {
             "days": "-M---F-",
             "building": "WAC",
             "room": "WAC 214",
-            "instructor": "Scott L"
+            "instructor": "Scott L",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -1442,7 +1723,8 @@ const TestRoute = () => {
             "days": "---W---",
             "building": "",
             "room": "",
-            "instructor": "Scott L"
+            "instructor": "Scott L",
+            "coordinates": "not found"
         }
     },
     {
@@ -1455,7 +1737,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 216",
-            "instructor": "Siemens D"
+            "instructor": "Siemens D",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -1468,7 +1754,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1481,7 +1768,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1494,7 +1782,11 @@ const TestRoute = () => {
             "days": "-M---F-",
             "building": "WAC",
             "room": "WAC 216",
-            "instructor": "Jantz A"
+            "instructor": "Jantz A",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -1507,7 +1799,11 @@ const TestRoute = () => {
             "days": "---W---",
             "building": "WAC",
             "room": "WAC 112",
-            "instructor": "Jantz A"
+            "instructor": "Jantz A",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -1520,7 +1816,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1533,7 +1830,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1546,7 +1844,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 210",
-            "instructor": "Siemens D"
+            "instructor": "Siemens D",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -1559,7 +1861,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1572,7 +1875,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1585,7 +1889,11 @@ const TestRoute = () => {
             "days": "---W---",
             "building": "WAC",
             "room": "WAC 216",
-            "instructor": "Siemens D"
+            "instructor": "Siemens D",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -1598,7 +1906,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1611,7 +1920,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1624,7 +1934,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Siemens D"
+            "instructor": "Siemens D",
+            "coordinates": "not found"
         }
     },
     {
@@ -1637,7 +1948,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1650,7 +1962,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1663,7 +1976,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Jantz A"
+            "instructor": "Jantz A",
+            "coordinates": "not found"
         }
     },
     {
@@ -1676,7 +1990,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1689,7 +2004,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1702,7 +2018,11 @@ const TestRoute = () => {
             "days": "---W---",
             "building": "WAC",
             "room": "WAC 216",
-            "instructor": "Jantz A"
+            "instructor": "Jantz A",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -1715,7 +2035,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1728,7 +2049,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1741,7 +2063,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Jantz A"
+            "instructor": "Jantz A",
+            "coordinates": "not found"
         }
     },
     {
@@ -1754,7 +2077,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1767,7 +2091,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1780,7 +2105,8 @@ const TestRoute = () => {
             "days": "-M-----",
             "building": "KIC",
             "room": "KICA",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -1793,7 +2119,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1806,7 +2133,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1819,7 +2147,8 @@ const TestRoute = () => {
             "days": "-M-----",
             "building": "KIC",
             "room": "KICA",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -1832,7 +2161,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1845,7 +2175,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1858,7 +2189,8 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "KIC",
             "room": "KICA",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -1871,7 +2203,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1884,7 +2217,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -1897,7 +2231,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "KIC",
             "room": "KICA",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -1910,7 +2245,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "KIC",
             "room": "KICA",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -1923,7 +2259,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "KIC",
             "room": "KICA",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -1936,7 +2273,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "KIC",
             "room": "KICA",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -1949,7 +2287,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "KIC",
             "room": "KICA",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -1962,7 +2301,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -1975,7 +2315,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "KIC",
             "room": "KICA",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -1988,7 +2329,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "KIC",
             "room": "KICA",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -2001,7 +2343,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "KIC",
             "room": "KICA",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -2014,7 +2357,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -2027,7 +2371,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -2040,7 +2385,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "KICA"
+            "instructor": "KICA",
+            "coordinates": "not found"
         }
     },
     {
@@ -2053,7 +2399,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 213",
-            "instructor": "Graber, E"
+            "instructor": "Graber, E",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2066,7 +2416,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 119",
-            "instructor": "Graber, E"
+            "instructor": "Graber, E",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2079,7 +2433,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": "not found"
         }
     },
     {
@@ -2092,7 +2447,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 208",
-            "instructor": "Scarry S"
+            "instructor": "Scarry S",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2105,7 +2464,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -2118,7 +2478,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 203",
-            "instructor": "Born B"
+            "instructor": "Born B",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2131,7 +2495,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 213",
-            "instructor": "Scarry S"
+            "instructor": "Scarry S",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2144,7 +2512,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 119",
-            "instructor": "Born B"
+            "instructor": "Born B",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2157,7 +2529,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 119",
-            "instructor": "Quinlin D"
+            "instructor": "Quinlin D",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2170,7 +2546,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "WAC",
             "room": "WAC 208",
-            "instructor": "Born B\nScarry S"
+            "instructor": "Born B\nScarry S",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2183,7 +2563,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 203",
-            "instructor": "Jantzen M"
+            "instructor": "Jantzen M",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2196,7 +2580,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 208",
-            "instructor": "Wedel K"
+            "instructor": "Wedel K",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2209,7 +2597,11 @@ const TestRoute = () => {
             "days": "-M-WRF-",
             "building": "WAC",
             "room": "WAC 210",
-            "instructor": "Jantzen M"
+            "instructor": "Jantzen M",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2222,7 +2614,11 @@ const TestRoute = () => {
             "days": "-M-WRF-",
             "building": "WAC",
             "room": "WAC 214",
-            "instructor": "Wedel K"
+            "instructor": "Wedel K",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2235,7 +2631,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "WAC",
             "room": "WAC 210",
-            "instructor": "Jantzen M"
+            "instructor": "Jantzen M",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2248,7 +2648,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Wedel K"
+            "instructor": "Wedel K",
+            "coordinates": "not found"
         }
     },
     {
@@ -2261,7 +2662,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -2274,7 +2676,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -2287,7 +2690,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 208",
-            "instructor": "Wedel K"
+            "instructor": "Wedel K",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2300,7 +2707,11 @@ const TestRoute = () => {
             "days": "-M-----",
             "building": "WAC",
             "room": "WAC 213",
-            "instructor": "Muhwezi, D"
+            "instructor": "Muhwezi, D",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2313,7 +2724,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "ML ",
             "room": "ML 141",
-            "instructor": "Muhwezi, D"
+            "instructor": "Muhwezi, D",
+            "coordinates": [
+                "38.075133",
+                "-97.343343"
+            ]
         }
     },
     {
@@ -2326,7 +2741,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 214",
-            "instructor": "Wedel K"
+            "instructor": "Wedel K",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2339,7 +2758,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "MH ",
             "room": "MH 025",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075112",
+                "-97.344159"
+            ]
         }
     },
     {
@@ -2352,7 +2775,11 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "ML ",
             "room": "ML 141",
-            "instructor": "Siemens, M\nDorton, M"
+            "instructor": "Siemens, M\nDorton, M",
+            "coordinates": [
+                "38.075133",
+                "-97.343343"
+            ]
         }
     },
     {
@@ -2365,7 +2792,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "MH ",
             "room": "MH 025",
-            "instructor": "Dorton, M"
+            "instructor": "Dorton, M",
+            "coordinates": [
+                "38.075112",
+                "-97.344159"
+            ]
         }
     },
     {
@@ -2378,7 +2809,11 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "MH ",
             "room": "MH GYM",
-            "instructor": "Siemens, M"
+            "instructor": "Siemens, M",
+            "coordinates": [
+                "38.075112",
+                "-97.344159"
+            ]
         }
     },
     {
@@ -2391,7 +2826,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "TG ",
             "room": "TG GYM",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075145",
+                "-97.344587"
+            ]
         }
     },
     {
@@ -2404,7 +2843,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "ML ",
             "room": "ML 103",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075133",
+                "-97.343343"
+            ]
         }
     },
     {
@@ -2417,7 +2860,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "MH ",
             "room": "MH 025",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075112",
+                "-97.344159"
+            ]
         }
     },
     {
@@ -2430,7 +2877,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "MH ",
             "room": "MH 025",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075112",
+                "-97.344159"
+            ]
         }
     },
     {
@@ -2443,7 +2894,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "MH ",
             "room": "MH 025",
-            "instructor": "Artaz J"
+            "instructor": "Artaz J",
+            "coordinates": [
+                "38.075112",
+                "-97.344159"
+            ]
         }
     },
     {
@@ -2456,7 +2911,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "KSC",
             "room": "KSC 016",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -2469,7 +2928,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "KSC",
             "room": "KSC 016",
-            "instructor": "Dorton, M"
+            "instructor": "Dorton, M",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -2482,7 +2945,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "MH ",
             "room": "MH 025",
-            "instructor": "Siemens, M"
+            "instructor": "Siemens, M",
+            "coordinates": [
+                "38.075112",
+                "-97.344159"
+            ]
         }
     },
     {
@@ -2495,7 +2962,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 006",
-            "instructor": "Siemens, M"
+            "instructor": "Siemens, M",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -2508,7 +2979,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "MH ",
             "room": "MH GYM",
-            "instructor": "Siemens, M"
+            "instructor": "Siemens, M",
+            "coordinates": [
+                "38.075112",
+                "-97.344159"
+            ]
         }
     },
     {
@@ -2521,7 +2996,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 021",
-            "instructor": "Dorton, M"
+            "instructor": "Dorton, M",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -2534,7 +3013,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "KSC",
             "room": "KSC 006",
-            "instructor": "Dorton, M"
+            "instructor": "Dorton, M",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -2547,7 +3030,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 021",
-            "instructor": "Dorton, M"
+            "instructor": "Dorton, M",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -2560,7 +3047,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "KSC",
             "room": "KSC 006",
-            "instructor": "Dorton, M"
+            "instructor": "Dorton, M",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -2573,7 +3064,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "KSC",
             "room": "KSC 121",
-            "instructor": "Siemens, M"
+            "instructor": "Siemens, M",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -2586,7 +3081,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "MH ",
             "room": "MH 025",
-            "instructor": "Siemens, M"
+            "instructor": "Siemens, M",
+            "coordinates": [
+                "38.075112",
+                "-97.344159"
+            ]
         }
     },
     {
@@ -2599,7 +3098,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 016",
-            "instructor": "Dorton, M"
+            "instructor": "Dorton, M",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -2612,7 +3115,11 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "TG ",
             "room": "TG GYM",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075145",
+                "-97.344587"
+            ]
         }
     },
     {
@@ -2625,7 +3132,11 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "MH ",
             "room": "MH WGHT",
-            "instructor": "MiddletonD"
+            "instructor": "MiddletonD",
+            "coordinates": [
+                "38.075112",
+                "-97.344159"
+            ]
         }
     },
     {
@@ -2638,7 +3149,11 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "TG ",
             "room": "TG GYM",
-            "instructor": "MiddletonD"
+            "instructor": "MiddletonD",
+            "coordinates": [
+                "38.075145",
+                "-97.344587"
+            ]
         }
     },
     {
@@ -2651,7 +3166,8 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "AD ",
             "room": "AD 212",
-            "instructor": "Thiesen B"
+            "instructor": "Thiesen B",
+            "coordinates": "not found"
         }
     },
     {
@@ -2664,7 +3180,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "TG ",
             "room": "TG GYM",
-            "instructor": "Johnson, G"
+            "instructor": "Johnson, G",
+            "coordinates": [
+                "38.075145",
+                "-97.344587"
+            ]
         }
     },
     {
@@ -2677,7 +3197,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "TG ",
             "room": "TG GYM",
-            "instructor": "Artaz J"
+            "instructor": "Artaz J",
+            "coordinates": [
+                "38.075145",
+                "-97.344587"
+            ]
         }
     },
     {
@@ -2690,7 +3214,11 @@ const TestRoute = () => {
             "days": "---W-F-",
             "building": "TG ",
             "room": "TG GYM",
-            "instructor": "Bertholf D"
+            "instructor": "Bertholf D",
+            "coordinates": [
+                "38.075145",
+                "-97.344587"
+            ]
         }
     },
     {
@@ -2703,7 +3231,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 119",
-            "instructor": "Siemens D"
+            "instructor": "Siemens D",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2716,7 +3248,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 214",
-            "instructor": "Born B"
+            "instructor": "Born B",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2729,7 +3265,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "ML ",
             "room": "ML 103",
-            "instructor": "Voth, T."
+            "instructor": "Voth, T.",
+            "coordinates": [
+                "38.075133",
+                "-97.343343"
+            ]
         }
     },
     {
@@ -2742,7 +3282,8 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "FA ",
             "room": "FA 172",
-            "instructor": "Peacock, N"
+            "instructor": "Peacock, N",
+            "coordinates": "not found"
         }
     },
     {
@@ -2755,7 +3296,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 213",
-            "instructor": "Scarry S"
+            "instructor": "Scarry S",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2768,7 +3313,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 018",
-            "instructor": "Peters, R"
+            "instructor": "Peters, R",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -2781,7 +3330,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 119",
-            "instructor": "Quinlin D"
+            "instructor": "Quinlin D",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2794,7 +3347,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "ML ",
             "room": "ML 141",
-            "instructor": "Dr. MeMe"
+            "instructor": "Dr. MeMe",
+            "coordinates": [
+                "38.075133",
+                "-97.343343"
+            ]
         }
     },
     {
@@ -2807,7 +3364,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 021",
-            "instructor": "Wiebe-Fris"
+            "instructor": "Wiebe-Fris",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -2820,7 +3381,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 208",
-            "instructor": "Goerzen P"
+            "instructor": "Goerzen P",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2833,7 +3398,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -2846,7 +3412,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -2859,7 +3426,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 119",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -2872,7 +3443,11 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "WAC",
             "room": "WAC 208",
-            "instructor": "Voth, T."
+            "instructor": "Voth, T.",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2885,7 +3460,11 @@ const TestRoute = () => {
             "days": "----RF-",
             "building": "WAC",
             "room": "WAC 214",
-            "instructor": "Voth, T."
+            "instructor": "Voth, T.",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -2898,7 +3477,8 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "",
             "room": "",
-            "instructor": "Kershner M"
+            "instructor": "Kershner M",
+            "coordinates": "not found"
         }
     },
     {
@@ -2911,7 +3491,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -2924,7 +3505,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -2937,7 +3519,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "ML ",
             "room": "ML 141",
-            "instructor": "Layman K"
+            "instructor": "Layman K",
+            "coordinates": [
+                "38.075133",
+                "-97.343343"
+            ]
         }
     },
     {
@@ -2950,7 +3536,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -2963,7 +3550,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -2976,7 +3564,8 @@ const TestRoute = () => {
             "days": "-M-----",
             "building": "FA ",
             "room": "FA KA",
-            "instructor": "Goerzen P\nVoth, T."
+            "instructor": "Goerzen P\nVoth, T.",
+            "coordinates": "not found"
         }
     },
     {
@@ -2989,7 +3578,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3002,7 +3592,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3015,7 +3606,8 @@ const TestRoute = () => {
             "days": "-M-----",
             "building": "FA ",
             "room": "FA KA",
-            "instructor": "Goerzen P"
+            "instructor": "Goerzen P",
+            "coordinates": "not found"
         }
     },
     {
@@ -3028,7 +3620,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3041,7 +3634,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3054,7 +3648,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Quinlin D"
+            "instructor": "Quinlin D",
+            "coordinates": "not found"
         }
     },
     {
@@ -3067,7 +3662,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3080,7 +3676,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3093,7 +3690,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 119",
-            "instructor": "Quinlin D"
+            "instructor": "Quinlin D",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3106,7 +3707,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3119,7 +3721,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3132,7 +3735,11 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "ML ",
             "room": "ML 141",
-            "instructor": "Sanchez, R"
+            "instructor": "Sanchez, R",
+            "coordinates": [
+                "38.075133",
+                "-97.343343"
+            ]
         }
     },
     {
@@ -3145,7 +3752,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Quinlin D"
+            "instructor": "Quinlin D",
+            "coordinates": "not found"
         }
     },
     {
@@ -3158,7 +3766,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 212",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3171,7 +3783,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 101",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3184,7 +3800,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3197,7 +3814,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3210,7 +3828,8 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "",
             "room": "",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": "not found"
         }
     },
     {
@@ -3223,7 +3842,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3236,7 +3856,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3249,7 +3870,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 216",
-            "instructor": "Scott L"
+            "instructor": "Scott L",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3262,7 +3887,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3275,7 +3901,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3288,7 +3915,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 216",
-            "instructor": "Scott L"
+            "instructor": "Scott L",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3301,7 +3932,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3314,7 +3946,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3327,7 +3960,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 212",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3340,7 +3977,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "WAC",
             "room": "WAC 212",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3353,7 +3994,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 216",
-            "instructor": "Scott L"
+            "instructor": "Scott L",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3366,7 +4011,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "WAC",
             "room": "WAC 212",
-            "instructor": "Scott L"
+            "instructor": "Scott L",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3379,7 +4028,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 216",
-            "instructor": "Scott L"
+            "instructor": "Scott L",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3392,7 +4045,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "WAC",
             "room": "WAC 212",
-            "instructor": "Scott L"
+            "instructor": "Scott L",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3405,7 +4062,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3418,7 +4076,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3431,7 +4090,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 016",
-            "instructor": "Peacock, N"
+            "instructor": "Peacock, N",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -3444,7 +4107,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 016",
-            "instructor": "Peacock, N"
+            "instructor": "Peacock, N",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -3457,7 +4124,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "WAC",
             "room": "WAC 101",
-            "instructor": "Peacock, N"
+            "instructor": "Peacock, N",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3470,7 +4141,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3483,7 +4155,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3496,7 +4169,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 212",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3509,7 +4186,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "WAC",
             "room": "WAC 212",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3522,7 +4203,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 212",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3535,7 +4220,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "WAC",
             "room": "WAC 212",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3548,7 +4237,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3561,7 +4251,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -3574,7 +4265,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "WAC",
             "room": "WAC 212",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -3587,7 +4282,8 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "FA ",
             "room": "FA 141",
-            "instructor": "Liu, C"
+            "instructor": "Liu, C",
+            "coordinates": "not found"
         }
     },
     {
@@ -3600,7 +4296,8 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "FA ",
             "room": "FA 141",
-            "instructor": "Miertschin"
+            "instructor": "Miertschin",
+            "coordinates": "not found"
         }
     },
     {
@@ -3613,7 +4310,8 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "FA ",
             "room": "FA 143",
-            "instructor": "Waters, H"
+            "instructor": "Waters, H",
+            "coordinates": "not found"
         }
     },
     {
@@ -3626,7 +4324,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "FA ",
             "room": "FA 165",
-            "instructor": "Liu, C"
+            "instructor": "Liu, C",
+            "coordinates": "not found"
         }
     },
     {
@@ -3639,7 +4338,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "FA ",
             "room": "FA 162",
-            "instructor": "Chun S"
+            "instructor": "Chun S",
+            "coordinates": "not found"
         }
     },
     {
@@ -3652,7 +4352,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "AD ",
             "room": "AD CH",
-            "instructor": "Hetrick D"
+            "instructor": "Hetrick D",
+            "coordinates": "not found"
         }
     },
     {
@@ -3665,7 +4366,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Johnson N\nGirton S"
+            "instructor": "Johnson N\nGirton S",
+            "coordinates": "not found"
         }
     },
     {
@@ -3678,7 +4380,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "FA ",
             "room": "FA 142",
-            "instructor": "Thompson C\nBoettger J\nHague Z"
+            "instructor": "Thompson C\nBoettger J\nHague Z",
+            "coordinates": "not found"
         }
     },
     {
@@ -3691,7 +4394,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Miertschin"
+            "instructor": "Miertschin",
+            "coordinates": "not found"
         }
     },
     {
@@ -3704,7 +4408,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Miertschin"
+            "instructor": "Miertschin",
+            "coordinates": "not found"
         }
     },
     {
@@ -3717,7 +4422,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Glanton H"
+            "instructor": "Glanton H",
+            "coordinates": "not found"
         }
     },
     {
@@ -3730,7 +4436,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "FA ",
             "room": "FA 142",
-            "instructor": "Boettger J"
+            "instructor": "Boettger J",
+            "coordinates": "not found"
         }
     },
     {
@@ -3743,7 +4450,8 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FA ",
             "room": "FA 141",
-            "instructor": "Liu, C"
+            "instructor": "Liu, C",
+            "coordinates": "not found"
         }
     },
     {
@@ -3756,7 +4464,8 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FA ",
             "room": "FA 141",
-            "instructor": "Liu, C"
+            "instructor": "Liu, C",
+            "coordinates": "not found"
         }
     },
     {
@@ -3769,7 +4478,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "FA ",
             "room": "FA 142",
-            "instructor": "Boettger J"
+            "instructor": "Boettger J",
+            "coordinates": "not found"
         }
     },
     {
@@ -3782,7 +4492,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Boettger J"
+            "instructor": "Boettger J",
+            "coordinates": "not found"
         }
     },
     {
@@ -3795,7 +4506,8 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "FA ",
             "room": "FA 141",
-            "instructor": "Boettger J"
+            "instructor": "Boettger J",
+            "coordinates": "not found"
         }
     },
     {
@@ -3808,7 +4520,8 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "FA ",
             "room": "FA 141",
-            "instructor": "Miertschin"
+            "instructor": "Miertschin",
+            "coordinates": "not found"
         }
     },
     {
@@ -3821,7 +4534,8 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "FA ",
             "room": "FA 141",
-            "instructor": "Liu, C"
+            "instructor": "Liu, C",
+            "coordinates": "not found"
         }
     },
     {
@@ -3834,7 +4548,8 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "FA ",
             "room": "FA 143",
-            "instructor": "Hilding, K\nWaters, H"
+            "instructor": "Hilding, K\nWaters, H",
+            "coordinates": "not found"
         }
     },
     {
@@ -3847,7 +4562,8 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FA ",
             "room": "FA 143",
-            "instructor": "Waters, H"
+            "instructor": "Waters, H",
+            "coordinates": "not found"
         }
     },
     {
@@ -3860,7 +4576,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "FA ",
             "room": "FA 165",
-            "instructor": "Liu, C"
+            "instructor": "Liu, C",
+            "coordinates": "not found"
         }
     },
     {
@@ -3873,7 +4590,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "FA ",
             "room": "FA 162",
-            "instructor": "Chun S"
+            "instructor": "Chun S",
+            "coordinates": "not found"
         }
     },
     {
@@ -3886,7 +4604,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "AD ",
             "room": "AD CH",
-            "instructor": "Hetrick D"
+            "instructor": "Hetrick D",
+            "coordinates": "not found"
         }
     },
     {
@@ -3899,7 +4618,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Johnson N\nGirton S"
+            "instructor": "Johnson N\nGirton S",
+            "coordinates": "not found"
         }
     },
     {
@@ -3912,7 +4632,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "FA ",
             "room": "FA 142",
-            "instructor": "Boettger J"
+            "instructor": "Boettger J",
+            "coordinates": "not found"
         }
     },
     {
@@ -3925,7 +4646,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Miertschin"
+            "instructor": "Miertschin",
+            "coordinates": "not found"
         }
     },
     {
@@ -3938,7 +4660,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": "not found"
         }
     },
     {
@@ -3951,7 +4674,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Glanton H"
+            "instructor": "Glanton H",
+            "coordinates": "not found"
         }
     },
     {
@@ -3964,7 +4688,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "FA ",
             "room": "FA 142",
-            "instructor": "Boettger J"
+            "instructor": "Boettger J",
+            "coordinates": "not found"
         }
     },
     {
@@ -3977,7 +4702,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Boettger J"
+            "instructor": "Boettger J",
+            "coordinates": "not found"
         }
     },
     {
@@ -3990,7 +4716,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Boettger J"
+            "instructor": "Boettger J",
+            "coordinates": "not found"
         }
     },
     {
@@ -4003,7 +4730,8 @@ const TestRoute = () => {
             "days": "-MTW-F-",
             "building": "FA ",
             "room": "FA 143",
-            "instructor": "Waters, H"
+            "instructor": "Waters, H",
+            "coordinates": "not found"
         }
     },
     {
@@ -4016,7 +4744,8 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FA ",
             "room": "FA KA",
-            "instructor": "Boettger J"
+            "instructor": "Boettger J",
+            "coordinates": "not found"
         }
     },
     {
@@ -4029,7 +4758,8 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FA ",
             "room": "FA 142",
-            "instructor": "Hilding, K"
+            "instructor": "Hilding, K",
+            "coordinates": "not found"
         }
     },
     {
@@ -4042,7 +4772,11 @@ const TestRoute = () => {
             "days": "-M-----",
             "building": "MH ",
             "room": "MH GYM",
-            "instructor": "Hilding, K"
+            "instructor": "Hilding, K",
+            "coordinates": [
+                "38.075112",
+                "-97.344159"
+            ]
         }
     },
     {
@@ -4055,7 +4789,8 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "FA ",
             "room": "FA KA",
-            "instructor": "Miertschin"
+            "instructor": "Miertschin",
+            "coordinates": "not found"
         }
     },
     {
@@ -4068,7 +4803,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "FA ",
             "room": "FA 142",
-            "instructor": "Boettger J"
+            "instructor": "Boettger J",
+            "coordinates": "not found"
         }
     },
     {
@@ -4081,7 +4817,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Boettger J"
+            "instructor": "Boettger J",
+            "coordinates": "not found"
         }
     },
     {
@@ -4094,7 +4831,8 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "FA ",
             "room": "FA 143",
-            "instructor": "Waters, H"
+            "instructor": "Waters, H",
+            "coordinates": "not found"
         }
     },
     {
@@ -4107,7 +4845,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Boettger J"
+            "instructor": "Boettger J",
+            "coordinates": "not found"
         }
     },
     {
@@ -4120,7 +4859,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4133,7 +4873,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4146,7 +4887,11 @@ const TestRoute = () => {
             "days": "-M-----",
             "building": "WAC",
             "room": "WAC 308",
-            "instructor": "Bartell, R"
+            "instructor": "Bartell, R",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4159,7 +4904,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "WAC",
             "room": "WAC 308",
-            "instructor": "Bartell, R\nHerbel, E"
+            "instructor": "Bartell, R\nHerbel, E",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4172,7 +4921,8 @@ const TestRoute = () => {
             "days": "-M-----",
             "building": "KPE",
             "room": "KPEC B",
-            "instructor": "Bartell, R\nHerbel, E"
+            "instructor": "Bartell, R\nHerbel, E",
+            "coordinates": "not found"
         }
     },
     {
@@ -4185,7 +4935,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "WAC",
             "room": "WAC 308",
-            "instructor": "Bartell, R"
+            "instructor": "Bartell, R",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4198,7 +4952,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "WAC",
             "room": "WAC 308",
-            "instructor": "Bartell, R\nMasem S"
+            "instructor": "Bartell, R\nMasem S",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4211,7 +4969,11 @@ const TestRoute = () => {
             "days": "----RF-",
             "building": "WAC",
             "room": "WAC 308",
-            "instructor": "Herbel, E"
+            "instructor": "Herbel, E",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4224,7 +4986,11 @@ const TestRoute = () => {
             "days": "-M-----",
             "building": "WAC",
             "room": "WAC 108",
-            "instructor": "Bartell, R\nMelin J"
+            "instructor": "Bartell, R\nMelin J",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4237,7 +5003,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "WAC",
             "room": "WAC 108",
-            "instructor": "Bartell, R\nHosford,H"
+            "instructor": "Bartell, R\nHosford,H",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4250,7 +5020,11 @@ const TestRoute = () => {
             "days": "-M-----",
             "building": "WAC",
             "room": "WAC 108",
-            "instructor": "Bartell, R"
+            "instructor": "Bartell, R",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4263,7 +5037,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "WAC",
             "room": "WAC 108",
-            "instructor": "Bartell, R\nHerbel, E"
+            "instructor": "Bartell, R\nHerbel, E",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4276,7 +5054,11 @@ const TestRoute = () => {
             "days": "----RF-",
             "building": "WAC",
             "room": "WAC 108",
-            "instructor": "Hosford,H\nMelin J"
+            "instructor": "Hosford,H\nMelin J",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4289,7 +5071,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "KSC",
             "room": "KSC 021",
-            "instructor": "Sager, A"
+            "instructor": "Sager, A",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -4302,7 +5088,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 121",
-            "instructor": "Peacock, N"
+            "instructor": "Peacock, N",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -4315,7 +5105,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 021",
-            "instructor": "Peacock, N"
+            "instructor": "Peacock, N",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -4328,7 +5122,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 121",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -4341,7 +5139,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 121",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -4354,7 +5156,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "KSC",
             "room": "KSC 102",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -4367,7 +5173,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 121",
-            "instructor": "Peacock, N"
+            "instructor": "Peacock, N",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -4380,7 +5190,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "KSC",
             "room": "KSC 121",
-            "instructor": "Peacock, N"
+            "instructor": "Peacock, N",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -4393,7 +5207,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 102",
-            "instructor": "Peacock, N"
+            "instructor": "Peacock, N",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -4406,7 +5224,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 102",
-            "instructor": "Peacock, N"
+            "instructor": "Peacock, N",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -4419,7 +5241,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4432,7 +5255,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4445,7 +5269,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "KSC",
             "room": "KSC 102",
-            "instructor": "Peacock, N"
+            "instructor": "Peacock, N",
+            "coordinates": [
+                "38.075133",
+                "-97.342227"
+            ]
         }
     },
     {
@@ -4458,7 +5286,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": "STAFF"
+            "instructor": "STAFF",
+            "coordinates": "not found"
         }
     },
     {
@@ -4471,7 +5300,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Wilson, S"
+            "instructor": "Wilson, S",
+            "coordinates": "not found"
         }
     },
     {
@@ -4484,7 +5314,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 119",
-            "instructor": "Williams S"
+            "instructor": "Williams S",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4497,7 +5331,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "WAC",
             "room": "WAC 213",
-            "instructor": "Greever, J"
+            "instructor": "Greever, J",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4510,7 +5348,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 213",
-            "instructor": "ChapDeck"
+            "instructor": "ChapDeck",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4523,7 +5365,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "WAC",
             "room": "WAC 216",
-            "instructor": "ChapDeck"
+            "instructor": "ChapDeck",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4536,7 +5382,11 @@ const TestRoute = () => {
             "days": "--T----",
             "building": "WAC",
             "room": "WAC 216",
-            "instructor": "Sch-SebesC"
+            "instructor": "Sch-SebesC",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4549,7 +5399,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "WAC",
             "room": "WAC 214",
-            "instructor": "Williams S"
+            "instructor": "Williams S",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4562,7 +5416,11 @@ const TestRoute = () => {
             "days": "---W---",
             "building": "WAC",
             "room": "WAC 210",
-            "instructor": "Williams S"
+            "instructor": "Williams S",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4575,7 +5433,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 213",
-            "instructor": "ChapDeck"
+            "instructor": "ChapDeck",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4588,7 +5450,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Williams S"
+            "instructor": "Williams S",
+            "coordinates": "not found"
         }
     },
     {
@@ -4601,7 +5464,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4614,7 +5478,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4627,7 +5492,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "WAC",
             "room": "WAC 213",
-            "instructor": "ChapDeck\nWilliams S"
+            "instructor": "ChapDeck\nWilliams S",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4640,7 +5509,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "WAC",
             "room": "WAC 213",
-            "instructor": "ChapDeck\nWilliams S"
+            "instructor": "ChapDeck\nWilliams S",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4653,7 +5526,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "WAC",
             "room": "WAC",
-            "instructor": "ChapDeck\nWilliams S"
+            "instructor": "ChapDeck\nWilliams S",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4666,7 +5543,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "FC ",
             "room": "FC 13",
-            "instructor": "Buller R"
+            "instructor": "Buller R",
+            "coordinates": [
+                "38.074791",
+                "-97.341324"
+            ]
         }
     },
     {
@@ -4679,7 +5560,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FC ",
             "room": "FC 13",
-            "instructor": "Schroed, K"
+            "instructor": "Schroed, K",
+            "coordinates": [
+                "38.074791",
+                "-97.341324"
+            ]
         }
     },
     {
@@ -4692,7 +5577,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4705,7 +5591,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4718,7 +5605,11 @@ const TestRoute = () => {
             "days": "-M-W-F-",
             "building": "WAC",
             "room": "WAC 208",
-            "instructor": "Buller R"
+            "instructor": "Buller R",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4731,7 +5622,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FC ",
             "room": "FC 7",
-            "instructor": "Long D"
+            "instructor": "Long D",
+            "coordinates": [
+                "38.074791",
+                "-97.341324"
+            ]
         }
     },
     {
@@ -4744,7 +5639,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4757,7 +5653,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4770,7 +5667,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FC ",
             "room": "FC 13",
-            "instructor": "Long D"
+            "instructor": "Long D",
+            "coordinates": [
+                "38.074791",
+                "-97.341324"
+            ]
         }
     },
     {
@@ -4783,7 +5684,11 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "WAC",
             "room": "WAC 103",
-            "instructor": "Gonzalez O"
+            "instructor": "Gonzalez O",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4796,7 +5701,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FC ",
             "room": "FC 13",
-            "instructor": "Long D"
+            "instructor": "Long D",
+            "coordinates": [
+                "38.074791",
+                "-97.341324"
+            ]
         }
     },
     {
@@ -4809,7 +5718,11 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "FC ",
             "room": "FC 6",
-            "instructor": "Long D"
+            "instructor": "Long D",
+            "coordinates": [
+                "38.074791",
+                "-97.341324"
+            ]
         }
     },
     {
@@ -4822,7 +5735,11 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "WAC",
             "room": "WAC 103",
-            "instructor": "Gonzalez O"
+            "instructor": "Gonzalez O",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4835,7 +5752,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4848,7 +5766,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4861,7 +5780,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Buller R"
+            "instructor": "Buller R",
+            "coordinates": "not found"
         }
     },
     {
@@ -4874,7 +5794,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4887,7 +5808,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4900,7 +5822,11 @@ const TestRoute = () => {
             "days": "--T-R--",
             "building": "FC ",
             "room": "FC 13",
-            "instructor": "Long D"
+            "instructor": "Long D",
+            "coordinates": [
+                "38.074791",
+                "-97.341324"
+            ]
         }
     },
     {
@@ -4913,7 +5839,11 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "FC ",
             "room": "FC 6",
-            "instructor": "Long D"
+            "instructor": "Long D",
+            "coordinates": [
+                "38.074791",
+                "-97.341324"
+            ]
         }
     },
     {
@@ -4926,7 +5856,11 @@ const TestRoute = () => {
             "days": "-M-W---",
             "building": "WAC",
             "room": "WAC 103",
-            "instructor": "Gonzalez O"
+            "instructor": "Gonzalez O",
+            "coordinates": [
+                "38.074605",
+                "-97.342049"
+            ]
         }
     },
     {
@@ -4939,7 +5873,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4952,7 +5887,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4965,7 +5901,11 @@ const TestRoute = () => {
             "days": "----R--",
             "building": "FC ",
             "room": "FC 6",
-            "instructor": "Long D"
+            "instructor": "Long D",
+            "coordinates": [
+                "38.074791",
+                "-97.341324"
+            ]
         }
     },
     {
@@ -4978,7 +5918,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -4991,7 +5932,8 @@ const TestRoute = () => {
             "days": "",
             "building": "",
             "room": "",
-            "instructor": ""
+            "instructor": "",
+            "coordinates": "not found"
         }
     },
     {
@@ -5004,7 +5946,8 @@ const TestRoute = () => {
             "days": "-------",
             "building": "",
             "room": "",
-            "instructor": "Buller R"
+            "instructor": "Buller R",
+            "coordinates": "not found"
         }
     },
     {
@@ -5017,7 +5960,11 @@ const TestRoute = () => {
             "days": "-MTWRF-",
             "building": "TS ",
             "room": "TS STAD",
-            "instructor": "Milicevic\nMilla, I"
+            "instructor": "Milicevic\nMilla, I",
+            "coordinates": [
+                "38.078038",
+                "-97.344062"
+            ]
         }
     },
     {
@@ -5030,7 +5977,11 @@ const TestRoute = () => {
             "days": "-MTWRF-",
             "building": "TS ",
             "room": "TS STAD",
-            "instructor": "Stokes, A"
+            "instructor": "Stokes, A",
+            "coordinates": [
+                "38.078038",
+                "-97.344062"
+            ]
         }
     },
     {
@@ -5043,7 +5994,11 @@ const TestRoute = () => {
             "days": "-MTWRF-",
             "building": "TG ",
             "room": "TG GYM",
-            "instructor": "Leake, A"
+            "instructor": "Leake, A",
+            "coordinates": [
+                "38.075145",
+                "-97.344587"
+            ]
         }
     },
     {
@@ -5056,7 +6011,11 @@ const TestRoute = () => {
             "days": "-MTWRF-",
             "building": "TS ",
             "room": "TS STAD",
-            "instructor": "Martinez J\nStallworth"
+            "instructor": "Martinez J\nStallworth",
+            "coordinates": [
+                "38.078038",
+                "-97.344062"
+            ]
         }
     },
     {
@@ -5069,7 +6028,11 @@ const TestRoute = () => {
             "days": "-MTWRF-",
             "building": "MH ",
             "room": "MH GYM",
-            "instructor": "McCord\nGogus J"
+            "instructor": "McCord\nGogus J",
+            "coordinates": [
+                "38.075112",
+                "-97.344159"
+            ]
         }
     },
     {
@@ -5082,7 +6045,11 @@ const TestRoute = () => {
             "days": "-MTWRF-",
             "building": "TS ",
             "room": "TS STAD",
-            "instructor": "Milicevic\nMilla, I"
+            "instructor": "Milicevic\nMilla, I",
+            "coordinates": [
+                "38.078038",
+                "-97.344062"
+            ]
         }
     },
     {
@@ -5095,7 +6062,11 @@ const TestRoute = () => {
             "days": "-MTWRF-",
             "building": "TS ",
             "room": "TS STAD",
-            "instructor": "Stokes, A"
+            "instructor": "Stokes, A",
+            "coordinates": [
+                "38.078038",
+                "-97.344062"
+            ]
         }
     },
     {
@@ -5108,7 +6079,11 @@ const TestRoute = () => {
             "days": "-MTWRF-",
             "building": "TG ",
             "room": "TG GYM",
-            "instructor": "Leake, A"
+            "instructor": "Leake, A",
+            "coordinates": [
+                "38.075145",
+                "-97.344587"
+            ]
         }
     },
     {
@@ -5121,7 +6096,11 @@ const TestRoute = () => {
             "days": "-MTWRF-",
             "building": "TS ",
             "room": "TS STAD",
-            "instructor": "Martinez J\nStallworth"
+            "instructor": "Martinez J\nStallworth",
+            "coordinates": [
+                "38.078038",
+                "-97.344062"
+            ]
         }
     },
     {
@@ -5134,7 +6113,11 @@ const TestRoute = () => {
             "days": "-MTWRF-",
             "building": "MH ",
             "room": "MH GYM",
-            "instructor": "McCord\nGogus J"
+            "instructor": "McCord\nGogus J",
+            "coordinates": [
+                "38.075112",
+                "-97.344159"
+            ]
         }
     }
 ]
@@ -5145,12 +6128,19 @@ const getCourse = (course: string) => {
   console.log(foundCourse?.rooms)
   console.log(foundCourse?.rooms?.section)
   console.log(foundCourse?.rooms?.hours)
+  console.log(foundCourse?.rooms?.schedule)
+  console.log(foundCourse?.rooms?.days)
+    console.log(foundCourse?.rooms?.building)
+    console.log(foundCourse?.rooms?.room)
+    console.log(foundCourse?.rooms?.instructor)
+    console.log(foundCourse?.rooms?.coordinates)
+  
   return foundCourse
 }
   return (
     <div>TestRoute
       <div>
-        <button onClick={() => console.log(getCourse('BIO110 Environmental Science'))}>Get Course</button>
+        <button onClick={() => console.log(getCourse('HHP321 Varsity Sport-Cheer & Dance'))}>Get Course</button>
       </div>
     </div>
   )
