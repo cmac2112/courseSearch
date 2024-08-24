@@ -7,11 +7,6 @@ import About from "./components/About/About";
 import "./index.css"
 import Howto from "./components/Howto/Howto";
 
-//figure out map stuff, preferrably a png or actualy maps depending on if they free
-//need sidebar component
-//need footer component
-
-
 //get coordinates for each room
 //figure out routes
 

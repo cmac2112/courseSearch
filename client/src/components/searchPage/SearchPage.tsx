@@ -107,14 +107,15 @@ var mapbox_url = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access
           value = {userInput}
           onChange={(e) => setUserInput(e.target.value)}
           placeholder="Enter A Course Code" />
-          <button className="search-button" onClick={() => getCourseData(userInput)}>Search</button>
+          <button className="search-button-search" onClick={() => getCourseData(userInput)}>Search</button>
         </div>
 
         <div className="errors">
           {foundCourse === null && <p>Course not found</p>}
         </div>
-        <div className="course-info">
+        
         <h2>{foundCourse?.course}</h2>
+        <div className="grid-container">
         <p>Area of Study: {foundCourse?.areaofstudy}</p>
         <p>Section: {foundCourse?.rooms?.section}</p>
         <p>Hours: {foundCourse?.rooms?.hours}</p>
@@ -124,6 +125,7 @@ var mapbox_url = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access
         <p>Room: {foundCourse?.rooms?.room}</p>
         <p>Instructor: {foundCourse?.rooms?.instructor}</p>
       </div>
+      <div className="map-area">
         <MapContainer className="map-container" center={[38.074672, -97.342624]} zoom={18} style={{ height: "50vh", width: "70vh" }} layers={[lyr_sattelite, lyr_streets, lg_markers]}>
       <TileLayer
         url={mapbox_url}
@@ -142,6 +144,7 @@ var mapbox_url = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access
       )}
       <LayerControl />
     </MapContainer>
+    </div>
       </div>
       </Layout>
     </div>

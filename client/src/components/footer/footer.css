@@ -6,3 +6,11 @@
     align-items: center;
     width: auto;
 }
+
+.mail-link{
+    color: rgb(43, 43, 154)
+}
+.footer-item-disclaimer{
+    display: flex;
+    flex-direction: column;
+}
