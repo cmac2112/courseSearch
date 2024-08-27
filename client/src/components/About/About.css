@@ -1,0 +1,8 @@
+.bullet-list-about{
+    display: flex;
+    justify-content: center;
+    list-style-type: disc;
+    margin-left: 20px;
+    font-family: sans-serif;
+    padding-top: 10px;
+}

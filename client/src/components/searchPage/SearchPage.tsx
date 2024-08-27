@@ -10,6 +10,10 @@ import L, { LatLngTuple } from 'leaflet'; // Add this line to import the 'L' obj
 import Header from '../Header';
 import courseData from './courses.json'
 
+
+//to do:
+// add floorplans of each building hidden until course code is entered
+// place fixed point over the image that should show the class room? 
 interface Course {
   course: string;
   areaofstudy: string;
